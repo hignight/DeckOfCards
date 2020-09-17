@@ -5,8 +5,8 @@ Class that reresents a single card in a standard 52 card French-suited Deck
 class _Cards:
 
     # Define the ranks and suits that are in a standard deck.
-    RANKS = ("A", "2", "3", "4", "5", "6", "7", "8", "9", \
-             "10", "J", "Q", "K")
+    RANKS = ("Ace", "2", "3", "4", "5", "6", "7", "8", "9", \
+             "10", "Jack", "Queen", "King")
     SUITS = ("Spades", "Diamonds", "Clubs", "Hearts")
 
     # Initialize card to assigned rank and suit.
