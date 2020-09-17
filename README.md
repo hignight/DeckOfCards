@@ -4,10 +4,10 @@ Simple Deck of Cards implemented in Python
 There are two classes connected to this project: Cards and Deck.
 
 ## Cards.py 
-Cards is a "private" class that only holds the suit and rank of a card and a method for printing what the card is.  It is private as the class can easily be broken at the moment and there is no error handiling if you create a card that is not in the standard French suited 52 card deck. 
+Cards is a "private" class that only holds the suit and rank of a card and a method for printing what the card is.  It is private as the class can easily be broken at the moment and there is no error handling if you create a card that is not in the standard French suited 52 card deck. 
 
 ## Deck.py
-Deck is class that holds Cards.  It is set up to make a 52 card deck with the standard French suits.  You can initalize deck with no options to get a single 52 card deck or initialize it with an int to get a "shoe" with that many decks in it.  So far it is a very simple class with limited error handling and limited capabilities.  The methods you can call from Deck are:
+Deck is class that holds Cards.  It is set up to make a 52 card deck with the standard French suits.  You can initialize deck with no options to get a single 52 card deck or initialize it with an int to get a "shoe" with that many decks in it.  So far it is a very simple class with limited error handling and limited capabilities.  The methods you can call from Deck are:
 
 ### AddDecks(num_of_decks = 1)
 Adds N decks to the shoe.  The default is 1.
