@@ -1,4 +1,4 @@
-# DeckOfCards
+# Deck of Cards
 Simple Deck of Cards implemented in Python
 
 There are two classes connected to this project: Cards and Deck.
